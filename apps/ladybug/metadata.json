@@ -25,8 +25,5 @@
         "url": ""
       }
     ],
-    "interface": "app",
-    "dependencies": {
-      "dataRecorder": "module"
-    }
-  }
+    "interface": "app"
+}
