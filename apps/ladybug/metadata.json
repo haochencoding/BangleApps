@@ -1,0 +1,32 @@
+{
+    "id": "ladybug",
+    "name": "Ladybug",
+    "shortName": "Ladybug",
+    "version": "2.1",
+    "description": "An app that collects heart rate and motion data for machine learning research on stress recognition.",
+    "icon": "icon.png",
+    "screenshots" : [ { "url":"screenshot.png" } ],
+    "type": "app",
+    "tags": "tool,health,widget,clkinfo,bluetooth",
+    "supports": ["BANGLEJS2"],
+    "readme": "README.md",
+    "storage": [
+      {"name": "ladybug.app.js", "url": "app.js"},
+      {"name":"ladybug.img","url":"app-icon.js","evaluate":true},
+      {"name": "ladybug.wid.js", "url": "widget.js"},
+      {"name": "ladybug.clkinfo.js", "url": "clkinfo.js"},
+      {"name":"ladybug.settings.js","url":"settings.js"},
+      {"name":"ladybug.dataRecorder.js","url":"dataRecorder.js"}
+    ],
+    "data": [
+      {
+        "name": "connectAllData.csv",
+        "storageFile":true,
+        "url": ""
+      }
+    ],
+    "interface": "app",
+    "dependencies": {
+      "dataRecorder": "module"
+    }
+  }
