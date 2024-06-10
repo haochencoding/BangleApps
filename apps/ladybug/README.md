@@ -4,8 +4,6 @@
 
 This app is designed to collect heart rate and motion data for training machine learning algorithms in stress recognition. For more information about this project and our lab at Institut Pasteur in Paris, please visit our [webpage](https://research.pasteur.fr/en/project/autocomplete-using-wearables-and-ml-to-assist-subjects-with-autism-and-their-caretakers/).
 
-Details on ethic approval:
-
 ## Usage
 
 ### Control Panel
@@ -23,7 +21,7 @@ Note: no data is collected when widgets are not loaded by other apps.
 ### Clockinfo
 The app also includes a Clockinfo module that allows you to control the recording status. This means you can use it in combination with any clock app that supports the Clockinfo module.
 
-For example, you can use this app with the Pebble++ clock to control data collection directly (see below).
+For example, you can use this app with the Pebble++ clock to control data collection directly (see below). To do so, you will need to install Pebble++ clock via this [link](https://banglejs.com/apps/?id=pebblepp).
 
 ![laydbug-clockinfo module screenshot: recording status](screenshot-clkinfo-record.png)
 
