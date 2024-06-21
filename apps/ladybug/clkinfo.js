@@ -28,7 +28,6 @@
 				run: () => {
 					const w = typeof WIDGETS !== "undefined" && WIDGETS["ladybug"];
 					if(w){
-						Bangle.buzz();
 						settings.recording = !settings.recording; // Reset recording status
                         require("Storage").writeJSON("ladybug.settings.json", settings);
                         WIDGETS["ladybug"].reload(); // Reload the widget to reflect changes
