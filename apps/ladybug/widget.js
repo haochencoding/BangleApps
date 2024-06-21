@@ -94,7 +94,7 @@
     },
     reload: function() {
       settings = require("Storage").readJSON("ladybug.settings.json",1) || { recording: false };
-      WIDGETS["recorder"].draw(); //redraw the widget
+      Bangle.drawWidgets(); //redraw all widgets
     }
   };
 })();
