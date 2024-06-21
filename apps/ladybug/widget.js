@@ -86,12 +86,10 @@
         Bangle.on('HRM-raw', recorder);
         Bangle.setHRMPower(1, 'ladybug');
         Bangle.setCompassPower(1, 'ladybug');
-        Bangle.buzz();
       } else {
         Bangle.removeListener('HRM-raw', recorder);
         Bangle.setHRMPower(0, 'ladybug');
         Bangle.setCompassPower(0, 'ladybug');
-        Bangle.buzz();
       }
     },
     reload: function() {
