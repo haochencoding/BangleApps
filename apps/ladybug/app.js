@@ -12,6 +12,7 @@ function showMenu() {
               if (WIDGETS["ladybug"]) {
                 WIDGETS["ladybug"].reload(); // Reload the widget to reflect changes
               }
+              Bangle.buzz();
           }
       }
   };
