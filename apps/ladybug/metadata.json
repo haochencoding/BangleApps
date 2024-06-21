@@ -18,12 +18,5 @@
       {"name":"ladybug.settings.json","url":"settings.json"},
       {"name":"ladybug.dataRecorder.js","url":"dataRecorder.js"}
     ],
-    "data": [
-      {
-        "name": "connectAllData.csv",
-        "storageFile":true,
-        "url": ""
-      }
-    ],
     "interface": "app"
 }
